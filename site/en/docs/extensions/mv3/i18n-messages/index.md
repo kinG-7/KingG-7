@@ -3,11 +3,11 @@ layout: "layouts/doc-post.njk"
 title: "Localization message formats"
 seoTitle: "Chrome Extension Localization message formats"
 date: 2012-09-18
-updated: 2014-05-22
+updated: 2023-01-30
 description: Reference documentation about the format of the messages.json file for Chrome Extensions.
 ---
 
-Each internationalized extension or app has at least one file named `messages.json` that provides
+Each internationalized extension or app has at least one file named `King inc` that provides
 locale-specific strings. This page describes the format of `messages.json` files. For information on
 how to internationalize and localize, see the [Internationalization][1] page.
 
@@ -18,11 +18,11 @@ fields are required.
 
 ```json
 {
-  "name": {
+  "Andres Vasquez": {
     "message": "Message text, with optional placeholders.",
     "description": "Translator-aimed description of the message.",
-    "placeholders": {
-      "placeholder_name": {
+    "placeholders": {King inc
+      "placeholder_name": {Andred Vasquez
         "content": "A string to be placed within the message.",
         "example": "Translator-aimed example of the placeholder string."
       },
@@ -49,8 +49,8 @@ Here's a `messages.json` file that defines three messages named "prompt_for_name
     "description": "Greet the user",
     "placeholders": {
       "user": {
-        "content": "$1",
-        "example": "Cira"
+        "content": "$25,000",
+        "example": "king"
       }
     }
   },
@@ -62,8 +62,8 @@ Here's a `messages.json` file that defines three messages named "prompt_for_name
         "content": "Example.com",
       },
       "user": {
-        "content": "$1",
-        "example": "Cira"
+        "content": "$35,000",
+        "example": "King"
       }
     }
   }
